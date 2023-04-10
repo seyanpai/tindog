@@ -1,0 +1,175 @@
+#title{
+    background-color: #ff4c68;
+    color: white;
+}
+
+/*.navbar-collapse{
+    margin-left: 500px;
+} */
+
+.navbar-brand{
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+
+.navbar{
+    padding: 0 0 4.5rem;
+}
+
+.container-fluid{
+    padding: 3% 15% 7%;
+}
+
+h1{
+    font-family: "Montserrat";
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+body{
+    font-family: "ubuntu";
+}
+
+.nav-item{
+    padding: 0 18px;
+}
+
+.nav-link{
+    font-size: 1.2rem;
+    font-family: Raleway;
+}
+
+.downloadbtn{
+    margin: 3% 3% 5% 0;
+}
+
+.iphonedog{
+    align-items: right;
+    width: 60%;
+    transform: rotate(30deg);
+    right: 30%;
+    position: absolute;
+}
+
+#features{
+    text-align: center;
+    background-color: white;
+    position: relative;
+}
+
+.featureicon{
+    font-size: 50px;
+    color: #ef8172;
+    margin: 20px;
+}
+
+.featureicon:hover{
+    color: #ff4c68;
+}
+
+#features h3{
+    font-size: 1.5rem;
+    font-family: Montserrat;
+}
+
+#features p{
+    font-size: 1rem;
+    font-family: Raleway;
+    color: #8f8f8f;
+    padding: 7% 15%;
+}
+
+.featurediv{
+    padding: 5%;
+}
+
+#testimonials{
+    text-align: center;
+    background-color: #ef8172;
+    color: #fff;
+}
+
+h2{
+    font-family: Montserrat;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+p{
+    color: #8f8f8f;
+}
+
+#testimonials img{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+#press{
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.presslogo{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+.carousel-item{
+    padding: 7% 15%;
+}
+
+#pricing{
+    padding: 100px;
+    text-align: center;
+}
+
+.pricing-col{
+    padding: 3% 2%;
+}
+
+@media (max-width:1028px){
+    .iphonedog{
+        transform:rotate(0deg);
+        position:static;
+    }
+
+    #title{
+        text-align: center;
+    } 
+}
+
+#cta{
+    text-align: center;
+    background-color: #ff4c68;
+    color: white;
+    padding: 7% 15%;
+}
+
+.ctadl{
+    margin: 2% 2%;
+}
+
+#cta h3{
+    font-family: Montserrat;
+    font-size: 2.5rem;
+}
+
+footer{
+    text-align: center;
+    padding: 7% 15%;
+}
+
+.contact-icons{
+    color: #383838;
+    margin: 20px 10px;
+}
+
+.contact-icons:hover{
+    color: #ff4c68;
+}
+
+footer p{
+    margin-top: 20px;
+}
